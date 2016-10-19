@@ -1,0 +1,31 @@
+/* PHASE 3: Layout */
+
+.col-1-4{
+  width: 25%;
+}
+
+.col-3-4{
+  width: 75%;
+}
+
+.content {
+  min-height: 575px
+}
+article{
+  /*height: 200px;*/
+  background-color: white;
+  float: left;
+  margin: 0 auto;
+
+}
+
+article:first-child {
+  height:inherit;
+  border: 1px lightgray solid;
+}
+
+article:last-child{
+  border-bottom: 1px lightgray solid;
+  border-top: 1px lightgray solid;
+  border-right: 1px lightgray solid;
+}

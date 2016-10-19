@@ -1,0 +1,42 @@
+/* PHASE 6: Sidebar */
+.sidebar {
+  position: relative;
+}
+
+.nsf{
+  position: absolute;
+  height: auto;
+  top: -100px;
+  left: 12px;
+}
+
+.nsf img{
+  width: 200px;
+  border-radius: 5px;
+}
+
+.nsf h3 {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.nsf ul{
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.nsf li {
+  text-align: left;
+  border-top: 1px lightgray solid;
+  padding: 5px
+}
+
+.nsf li:last-child{
+  border-bottom: 1px lightgray solid;
+}
+
+.nsf li:hover{
+  background-color: lightgray;
+}

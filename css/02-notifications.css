@@ -1,0 +1,45 @@
+/* PHASE 2: Notifications */
+#nav-drop{
+  position: absolute;
+  top: 38px;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
+
+#nav-drop li{
+  border: 1px grey solid;
+  justify-content: center;
+  background-color: white;
+
+
+}
+
+.show-drop:hover #nav-drop {
+  display: block;
+}
+
+.show-drop:hover small {
+  background-color: red;
+}
+#nav-drop li a {
+  color: black;
+  font-size: 14px;
+}
+
+#nav-drop li:hover{
+  background-color: lightgrey;
+}
+
+.relative {
+  position: relative;
+}
+
+small {
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+
+  padding: 7px;
+}

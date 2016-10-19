@@ -1,0 +1,40 @@
+/* PHASE 1: Header */
+nav {
+  background-color: #f00;
+  position: relative;
+  z-index: 1;
+}
+
+span ul{
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  
+}
+
+nav ul li {
+  padding: 10px 15px 10px 15px ;
+  border-left: 1px white solid;
+
+}
+nav ul li:last-child {
+  border-right: 1px white solid;
+}
+nav a {
+  text-align: center;
+  color: white;
+}
+
+nav li:hover {
+  background-color: #000;
+}
+
+span{
+  margin:0 auto;
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
